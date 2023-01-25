@@ -24,10 +24,10 @@ Intsall Script: `sudo bash -c "$(wget -nv -O - https://github.com/wiedehopf/tar1
 
 ##Running the program 
 
-`sudo systemcyl start tar1090`
-`sudo readsb --interactive --device-type rtlsdr --write-json /run/readsb --net`
+`sudo systemctl start tar1090`
+`sudo systemctl start readsb`
 
 ##Stopping the program
 
 `sudo systemctl stop tar1090`
-Control+C the terminal running the readsb command
+`sudo systemctl stop readsb`

@@ -1,5 +1,5 @@
-###Installing gqrx
+# Installing gqrx
 
-##Commands:
+## Commands:
 sudo apt-get update
 sudo apt-get install gqrx-sdr -y
